@@ -30,7 +30,7 @@ def tictactoe():
             board[move] = turn
             count += 1
         else:
-            print("This position is filled filled.\nEnter your position again: ")
+            print("This position is filled.\nEnter your position again: ")
             continue
         # after 5 moves, check if either player has won by checking rows, columns, diagonals
         if count >= 5:
